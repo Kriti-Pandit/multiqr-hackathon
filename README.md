@@ -4,7 +4,7 @@
 
 🏆 **Solution for 1Pharmacy Hackathon**
 
-Our solution achieves near-perfect detection of multiple QR codes on medicine packs, even under challenging conditions like tilt, blur, partial occlusion, and varying lighting. With **99.1% mAP50**, **99.9% precision**, and **98.8% recall**, our model reliably identifies all QR codes while maintaining exceptional speed and efficiency.
+The solution achieves near-perfect detection of multiple QR codes on medicine packs, even under challenging conditions like tilt, blur, partial occlusion, and varying lighting. With **99.1% mAP50**, **99.9% precision**, and **98.8% recall**, our model reliably identifies all QR codes while maintaining exceptional speed and efficiency.
 
 ---
 
@@ -24,7 +24,7 @@ Our solution achieves near-perfect detection of multiple QR codes on medicine pa
 
 ### 🧠 Model Selection & Experimentation
 
-We trained and evaluated three different approaches to solve the multi-QR detection challenge:
+Trained and evaluated three different approaches to solve the multi-QR detection challenge:
 
 1.  **Standard YOLOv8n (Selected for Submission)**
     -   **mAP50:** 0.991
@@ -47,7 +47,7 @@ We trained and evaluated three different approaches to solve the multi-QR detect
 
 ---
 
-### 🏆 Why We Chose Standard YOLOv8n
+### 🏆 Why Choose Standard YOLOv8n
 
 We selected the standard YOLOv8n model for our final submission because:
 
@@ -57,9 +57,6 @@ We selected the standard YOLOv8n model for our final submission because:
 -   **Robustness:** Handles tilted, blurred, and partially covered QR codes effectively without needing OBB complexity.
 -   **Production Ready:** Lightweight model (6.2 MB) suitable for deployment on edge devices in pharmacy settings.
 
-Our visual validation on real medicine pack images confirmed that axis-aligned bounding boxes are sufficient for QR code detection—the unique geometric patterns of QR codes allow our model to achieve excellent localization without the overhead of oriented bounding boxes.
-
-This strategic choice demonstrates our focus on practical, efficient, and reliable solutions rather than over-engineering for marginal gains.
 
 ---
 ### 🎯 Bonus Task: QR Decoding & Classification
@@ -78,8 +75,6 @@ Successfully classified decoded QRs into:
 - **`expiry`**: Expiry dates
 - **`manufacturer`**: Manufacturer codes
 - **`serial`**: Unique serial numbers
-
-> 💡 **67% decoding rate is exceptional** for real-world medicine packs, where QRs are often tiny (<30px), blurry, reflective, or partially occluded.
 
 ---
 
