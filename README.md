@@ -106,7 +106,7 @@ python train.py --data_path /path/to/QR_Dataset
 ---
 
 ### 🔍 Inference (Required for Evaluation)
-🔍 Inference Commands
+
 **Stage 1:** Detection Only
 
 ```bash
