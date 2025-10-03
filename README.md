@@ -89,7 +89,7 @@ Successfully classified decoded QRs into:
 **Installation**
 
 ```bash
-
+git clone https://github.com/Kriti-Pandit/multiqr-hackathon.git
 cd multiqr-hackathon
 pip install -r requirements.txt
 ```
