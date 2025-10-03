@@ -49,7 +49,7 @@ Trained and evaluated three different approaches to solve the multi-QR detection
 
 ### 🏆 Why Choose Standard YOLOv8n
 
-We selected the standard YOLOv8n model for our final submission because:
+I selected the standard YOLOv8n model for our final submission because:
 
 -   **Highest Overall Accuracy:** Achieved the best mAP50 (0.991) with near-perfect precision (0.999).
 -   **Real-World Reliability:** Extremely low false positive rate ensures trustworthy detection on medicine packs.
@@ -61,7 +61,7 @@ We selected the standard YOLOv8n model for our final submission because:
 ---
 ### 🎯 Bonus Task: QR Decoding & Classification
 
-For the bonus challenge, we implemented a **robust decoding pipeline** that achieves **67% decoding success rate** on real medicine pack QR codes.
+For the bonus challenge, I implemented a **robust decoding pipeline** that achieves **67% decoding success rate** on real medicine pack QR codes.
 
 #### 🔍 Decoding Strategy
 - **Pure OpenCV implementation** (no external APIs)
